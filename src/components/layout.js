@@ -31,8 +31,8 @@ const Layout = ({ children }) => (
         <div className="layout-container">
           <main>{children}</main>
           <footer className="w-100 ba bg-blue flex">
-            <section className="w-onethird-l w-100 flex items-center justify-center">
-              <div className="flex flex-column">
+            <section className="w-onethird-l w-100 flex items-center justify-center white">
+              <div className="flex flex-column tc">
                 <Link to="/">
                   Services
                 </Link>
@@ -46,20 +46,18 @@ const Layout = ({ children }) => (
             </section>
             <section className="w-onethird-l w-100">
               <div className="center">
-                <LogoWhite />
+                <Link to="/">
+                  <LogoWhite />
+                </Link>
               </div>
             </section>
-            <section className="w-onethird-l w-100 flex items-center justify-center">
-              <div className="flex flex-column">
-                <Link to="/">
-                  Link
+            <section className="w-onethird-l w-100 flex items-center justify-center white">
+              <div className="flex flex-column tc">
+                <span className="b">Contact</span>
+                <Link to="/contact-page/">
+                  via Email
                 </Link>
-                <Link to="/">
-                  Link
-                </Link>
-                <Link to="/">
-                  Link
-                </Link>
+                <a href="tel:(651) 279-4469">(651) 279-4469</a>
               </div>
             </section>
           </footer>
