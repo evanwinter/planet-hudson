@@ -620,3 +620,29 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-wrap {
+  max-width: 540px;
+}
+
+.logo-wrap-sm {
+  width: 200px;
+  min-width: 100px;
+}
+
+.nav-spacer {
+  display: block;
+  height: 110px;
+}
+
+.layout-container main {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0px 1.0875rem 1.45rem;
+}

@@ -2,19 +2,20 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Splash from "../components/splash"
-import Image from "../components/image"
+import Logo from "../components/logo"
 import SEO from "../components/seo"
+
+import tachyons from "tachyons"
 
 const IndexPage = () => (
   <Splash>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+    <div className="w-80 center logo-wrap"><Link to="/"><Logo /></Link></div>
+    <div className="flex justify-center">
+      <Link className="ma2" to="/services-page">Services</Link>
+      <Link className="ma2" to="/about-page">About</Link>
+      <Link className="ma2" to="/contact-page">Contact</Link>
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
   </Splash>
 )
 

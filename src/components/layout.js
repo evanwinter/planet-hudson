@@ -7,8 +7,9 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import { StaticQuery, graphql } from "gatsby"
+import { Link, StaticQuery, graphql } from "gatsby"
 
+import LogoWhite from "./logo-white"
 import Header from "./header"
 import "./layout.css"
 
@@ -25,20 +26,42 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
-        <Header siteTitle={data.site.siteMetadata.title} />
-        <div
-          style={{
-            margin: `0 auto`,
-            maxWidth: 960,
-            padding: `0px 1.0875rem 1.45rem`,
-            paddingTop: 0,
-          }}
-        >
+        <Header />
+        <div className="nav-spacer"></div>
+        <div className="layout-container">
           <main>{children}</main>
-          <footer>
-            © {new Date().getFullYear()}, Built with
-            {` `}
-            <a href="https://www.gatsbyjs.org">Gatsby</a>
+          <footer className="w-100 ba bg-blue flex">
+            <section className="w-onethird-l w-100 flex items-center justify-center">
+              <div className="flex flex-column">
+                <Link to="/">
+                  Services
+                </Link>
+                <Link to="/">
+                  About
+                </Link>
+                <Link to="/">
+                  Contact
+                </Link>
+              </div>
+            </section>
+            <section className="w-onethird-l w-100">
+              <div className="center">
+                <LogoWhite />
+              </div>
+            </section>
+            <section className="w-onethird-l w-100 flex items-center justify-center">
+              <div className="flex flex-column">
+                <Link to="/">
+                  Link
+                </Link>
+                <Link to="/">
+                  Link
+                </Link>
+                <Link to="/">
+                  Link
+                </Link>
+              </div>
+            </section>
           </footer>
         </div>
       </>
