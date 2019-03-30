@@ -7,21 +7,24 @@ import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Splash>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO title="Home" keywords={[`recycling`, `wisconsin`, `company`]} />
     <div className="w-80 center logo-wrap">
       <Link to="/">
         <Logo />
       </Link>
     </div>
     <div className="flex justify-center">
-      <Link className="ma2 link pb1 b" to="/services-page">
+      <Link className="ma2 link pb1 b" to="/services">
         Services
       </Link>
-      <Link className="ma2 link pb1 b" to="/about-page">
+      <Link className="ma2 link pb1 b" to="/about">
         About
       </Link>
-      <Link className="ma2 link pb1 b" to="/contact-page">
+      <Link className="ma2 link pb1 b" to="/contact">
         Contact
+      </Link>
+      <Link className="ma2 link pb1 b" to="/recycling">
+        Recycling
       </Link>
     </div>
   </Splash>

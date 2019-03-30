@@ -36,28 +36,28 @@ class Header extends React.Component {
             </div>
             <Link
               className="link pb1 dib mr3-ns"
-              to="/services-page"
+              to="/services"
               title="Store"
             >
               Services
             </Link>
             <Link
               className="link pb1 dib mr3-ns"
-              to="/about-page"
+              to="/about"
               title="About"
             >
               About
             </Link>
             <Link
               className="link pb1 dib mr3-ns"
-              to="/contact-page"
+              to="/contact"
               title="Contact"
             >
               Contact
             </Link>
             <Link
               className="link pb1 dib"
-              to="/recycling-page"
+              to="/recycling"
               title="Recycling"
             >
               Recycling

@@ -19,7 +19,7 @@ const ServicesPage = () => (
           <h4 className="mb1 gray">Step 1</h4>
           <p>
             Contact Planet Hudson through{" "}
-            <Link className="b" to="/contact-page/">
+            <Link className="b" to="/contact/">
               this form
             </Link>{" "}
             or by calling{" "}
@@ -54,7 +54,7 @@ const ServicesPage = () => (
           <p className="f4 b near-black">
             And that's that! Recycling made easy — for just $40 per month.{" "}
             <br />
-            <Link className="db mt2 brand-blue" to="/contact-page/">
+            <Link className="db mt2 brand-blue" to="/contact/">
               Click here to get started.
             </Link>
           </p>

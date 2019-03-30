@@ -38,13 +38,13 @@ const Layout = ({ children }) => (
               <div className="dt-ns dt--fixed-ns mw7 center">
                 <div className="dtc-ns tc v-mid white td-none pt3 pt0-ns">
                   <div className="flex flex-column tc">
-                    <Link className="no-underline pv1" to="/">
+                    <Link className="no-underline pv1" to="/services">
                       Services
                     </Link>
-                    <Link className="no-underline pv1" to="/">
+                    <Link className="no-underline pv1" to="/about">
                       About
                     </Link>
-                    <Link className="no-underline pv1" to="/">
+                    <Link className="no-underline pv1" to="/contact">
                       Contact
                     </Link>
                   </div>
@@ -59,7 +59,7 @@ const Layout = ({ children }) => (
                 <div className="dtc-ns tc v-mid white td-none pb3 pb0-ns">
                   <div className="flex flex-column tc">
                     <span className="b pv1">Contact</span>
-                    <Link className="no-underline pv1" to="/contact-page/">
+                    <Link className="no-underline pv1" to="/contact">
                       via Email
                     </Link>
                     <a className="no-underline pv1" href="tel:(651) 279-4469">
