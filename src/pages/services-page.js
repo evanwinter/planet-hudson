@@ -3,16 +3,12 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-
-import flier from "../images/flier.jpg"
+import Flier from "../components/flier"
 
 const ServicesPage = () => (
   <Layout>
     <SEO title="Services" />
-    <section
-      id="services-section"
-      className="pt4-l sans-serif"
-    >
+    <section id="services-section" className="pt4-l sans-serif">
       <p className="black-20 f6 b pt4 mb0 w-100 center ">Services</p>
       <div className="flex flex-column flex-row-l">
         <article className="w-100-s w-100-m center w-50-l pr2-l">
@@ -66,7 +62,7 @@ const ServicesPage = () => (
           <hr className="dn-l" />
         </article>
         <article className="w-100-s w-80-m w-50-l pl2-l logo-wrap center">
-          <img alt="Planet Hudson Flier" src={flier} />
+          <Flier />
         </article>
       </div>
     </section>

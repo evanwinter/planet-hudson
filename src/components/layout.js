@@ -38,9 +38,15 @@ const Layout = ({ children }) => (
               <div className="dt-ns dt--fixed-ns mw7 center">
                 <div className="dtc-ns tc v-mid white td-none pt3 pt0-ns">
                   <div className="flex flex-column tc">
-                    <Link className="no-underline pv1" to="/">Services</Link>
-                    <Link className="no-underline pv1" to="/">About</Link>
-                    <Link className="no-underline pv1" to="/">Contact</Link>
+                    <Link className="no-underline pv1" to="/">
+                      Services
+                    </Link>
+                    <Link className="no-underline pv1" to="/">
+                      About
+                    </Link>
+                    <Link className="no-underline pv1" to="/">
+                      Contact
+                    </Link>
                   </div>
                 </div>
                 <div className="dtc-ns tc v-mid white td-none">
@@ -53,8 +59,12 @@ const Layout = ({ children }) => (
                 <div className="dtc-ns tc v-mid white td-none pb3 pb0-ns">
                   <div className="flex flex-column tc">
                     <span className="b pv1">Contact</span>
-                    <Link className="no-underline pv1" to="/contact-page/">via Email</Link>
-                    <a className="no-underline pv1" href="tel:(651) 279-4469">(651) 279-4469</a>
+                    <Link className="no-underline pv1" to="/contact-page/">
+                      via Email
+                    </Link>
+                    <a className="no-underline pv1" href="tel:(651) 279-4469">
+                      (651) 279-4469
+                    </a>
                   </div>
                 </div>
               </div>
@@ -77,8 +87,6 @@ Layout.propTypes = {
 }
 
 export default Layout
-
-
 
 /*
 
