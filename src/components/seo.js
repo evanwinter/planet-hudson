@@ -77,7 +77,9 @@ function SEO({ description, lang, meta, keywords, title }) {
             : []
         )
         .concat(meta)}
-    />
+    >
+      {/* Add third-party script tags or stylesheets that go in header here */}
+    </Helmet>
   )
 }
 

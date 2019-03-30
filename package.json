@@ -1,15 +1,16 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "Planet Hudson",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "description": "Planet Hudson LLC's official website",
+  "version": "1.0.0",
+  "author": "Evan Winter <evan@evanwinter.me>",
   "dependencies": {
     "gatsby": "^2.3.3",
     "gatsby-image": "^2.0.35",
     "gatsby-plugin-manifest": "^2.0.25",
     "gatsby-plugin-offline": "^2.0.25",
     "gatsby-plugin-react-helmet": "^3.0.11",
+    "gatsby-plugin-react-svg": "^2.1.1",
     "gatsby-plugin-sass": "^2.0.11",
     "gatsby-plugin-sharp": "^2.0.32",
     "gatsby-source-filesystem": "^2.0.28",
@@ -19,7 +20,8 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.0",
-    "tachyons": "^4.11.1"
+    "tachyons": "^4.11.1",
+    "tiny-slider": "^2.9.1"
   },
   "devDependencies": {
     "prettier": "^1.16.4"
