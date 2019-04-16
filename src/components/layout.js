@@ -62,8 +62,8 @@ const Layout = ({ children }) => (
                     <Link className="no-underline pv1" to="/contact">
                       via Email
                     </Link>
-                    <a className="no-underline pv1" href="tel:(651) 279-4469">
-                      (651) 279-4469
+                    <a className="no-underline pv1" href={"tel:" + process.env.CLIENT_PHONE_NUMBER}>
+                      {process.env.CLIENT_PHONE_NUMBER}
                     </a>
                   </div>
                 </div>

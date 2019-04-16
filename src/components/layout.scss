@@ -654,6 +654,10 @@ body.no-scroll {
   min-width: 100px;
 }
 
+.gatsby-image-wrapper {
+	z-index: -1;
+}
+
 .nav-spacer {
   display: block;
   height: $nav-height;
